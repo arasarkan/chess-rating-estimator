@@ -2,6 +2,11 @@
 
 [English](README.md)
 
+> Bu, [Claude Code](https://claude.com/claude-code) ile geliştirilmiş bir hobi projesidir. Satranç motoru geliştiricisi
+> değilim ve buradaki bazı tercihler eksik ya da yanlış olabilir. Satranç motorları konusunda (Stockfish ayarları, Maia
+> gibi insan oyununu modelleyen yaklaşımlar, bulmaca zorluğu, derecelendirme sistemleri) bilgi sahibiyseniz öneri ve
+> eleştirilerinizi duymaktan memnuniyet duyarım. Bana ulaşmanın en kolay yolu bir issue açmak.
+
 Bir satranç oyuncusunun rapid derecelendirmesi, onlarca puanlı oyun yerine tek bir kısa oturumdan ne kadar iyi tahmin
 edilebilir? Bu depo, bu soruyu yanıtlamaya çalışan çalışır bir prototip içerir. Katılımcı, seviyesine göre tek tek
 seçilen 12–20 satranç sorusunu çözer, ardından insan oyuncuları taklit eden bir modele karşı tek bir 10+5 oyun oynar.
@@ -105,5 +110,3 @@ saatlik hesap). Hazır banka `py/data/bank.jsonl.gz` olarak depodadır. Servisle
 - Sorular: [Lichess bulmaca ve oyun veritabanları](https://database.lichess.org/), CC0.
 - Maia-2: MIT; ağırlıklar kurulum sırasında yazarların yayımladığı yerden indirilir.
 - Stockfish 19: GPL-3.0; kurulum sırasında resmî sürümden indirilir.
-
-Geri bildirim ve sorular için issue açabilirsiniz.

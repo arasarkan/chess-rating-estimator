@@ -2,6 +2,11 @@
 
 [Türkçe](README.tr.md)
 
+> This is a hobby project, developed with [Claude Code](https://claude.com/claude-code). I am not a chess engine
+> developer, and some of the choices here may well be naive. If you know chess engines well (Stockfish settings, Maia or
+> other models of human play, puzzle difficulty, rating systems), I would be glad to hear your suggestions and
+> criticism. Opening an issue is the easiest way to reach me.
+
 How well can a chess player's rapid rating be estimated from one short session instead of dozens of rated games?
 This repository contains a working prototype that tries to answer that question. A participant solves 12–20 chess
 problems, chosen one at a time to match their level, and then plays a single 10+5 game against a model that imitates
@@ -107,5 +112,3 @@ separately are listed in [docs/CONFIG.md](docs/CONFIG.md).
 - Problems: [Lichess puzzle and game databases](https://database.lichess.org/), CC0.
 - Maia-2: MIT, weights downloaded from the authors during setup.
 - Stockfish 19: GPL-3.0, downloaded from the official release during setup.
-
-Feedback and questions are welcome in the issues.
