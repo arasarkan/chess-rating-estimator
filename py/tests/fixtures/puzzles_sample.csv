@@ -1,0 +1,11 @@
+PuzzleId,FEN,Moves,Rating,RatingDeviation,Popularity,NbPlays,Themes,GameUrl,OpeningTags
+T0001,rn3bkr/p1p1p1p1/1p5n/5p2/8/N6P/PPKQ3R/1RB1NB2 b - - 3 19,h6g4 d2d5 g8h7 h3g4 h7g6 d5e6,1850,75,92,5400,mate mateIn3 long kingsideAttack,https://lichess.org/abcd1234#38,
+T0002,rn3bkr/p1p3p1/1p2p3/5pQ1/2B3n1/N6P/PPK4R/1RB1N3 b - - 1 21,g4h2 c4e6 g8h7 g5h5,1420,74,88,3100,mate mateIn2 short,https://lichess.org/abcd1235#42,
+T0003,k7/p7/2K5/8/7R/8/8/8 b - - 0 1,a7a6 c6b6 a8b8 h4h8,1180,72,95,2200,endgame mate mateIn2 rookEndgame,,
+T0004,rn3bkr/p1p3p1/1p2p3/5pQ1/2B3n1/N6P/PPK4R/1RB1N3 b - - 1 21,g4h2 c4e6 g8h7 g5h5,1530,77,85,1800,defensiveMove short,,
+T0005,rnb1kb1r/ppp1pppp/1q6/3p4/1P2n3/B6P/P1PPNPP1/RN1QKB1R w KQkq - 4 6,g2g4 b6f2,900,70,90,9000,mate mateIn1 oneMove,,Queens_Pawn_Game
+T0006,rn3bkr/p1p1p1p1/1p5n/5p2/8/N6P/PPKQ3R/1RB1NB2 b - - 3 19,h6g4 d2d5 g8h7 h3g4 h7g6 d5e6,1850,90,92,5400,mate mateIn3,,
+T0007,rn3bkr/p1p3p1/1p2p3/5pQ1/2B3n1/N6P/PPK4R/1RB1N3 b - - 1 21,g4h2 c4e6 g8h7 g5h5,1420,74,88,500,mate mateIn2,,
+T0008,rn3bkr/p1p3p1/1p2p3/5pQ1/2B3n1/N6P/PPK4R/1RB1N3 b - - 1 21,g4h2 c4e6 g8h7 g5h5,1420,74,60,3100,mate mateIn2,,
+T0009,rn3bkr/p1p3p1/1p2p3/5pQ1/2B3n1/N6P/PPK4R/1RB1N3 b - - 1 21,g4h3 c4e6 g8h7 g5h5,1420,74,88,3100,mate mateIn2,,
+T0010,k7/p7/2K5/8/7R/8/8/8 b - - 0 1,a7a6 c6b6 a8b8 h4h8,1250,60,80,4000,quietMove endgame,,

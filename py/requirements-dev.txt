@@ -1,0 +1,9 @@
+# Testler ve uçtan uca duman testi için (çalıştırmak için gerekmez)
+-r requirements.txt
+pytest>=8
+hypothesis>=6
+httpx>=0.27
+websockets>=12
+zstandard>=0.22
+ruff>=0.6
+sentry-sdk>=2

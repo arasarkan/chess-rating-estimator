@@ -1,0 +1,16 @@
+# Çalıştırmak için gerekenler. torch ve maia2 ayrıca kurulur (scripts/setup.py).
+# Sonuçları birebir yeniden üretmek için geliştirme ortamının tam listesi: requirements.lock
+numpy>=1.26
+scipy>=1.11
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+chess>=1.10
+# maia2'nin bağımlılıkları (maia2 sürüm kısıtları yok sayılarak kurulur)
+einops
+gdown
+pandas
+pyyaml
+pyzstd>=0.19.1,<0.20
+requests
+tqdm

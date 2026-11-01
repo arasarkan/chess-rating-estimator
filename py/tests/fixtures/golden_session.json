@@ -1,0 +1,393 @@
+{
+ "versions": {
+  "model": {
+   "measure": "0.3.0",
+   "lambda_maia": 0.7,
+   "lambda_loss": 0.2,
+   "exclusion": "backtest-2026-10-29",
+   "maia_extrap": "low=0.0,high=0.5,max=600.0",
+   "b_mapping": "alpha=-200,beta=1",
+   "prior": "N(1500,800)",
+   "scales": "pilot-öncesi-yaklaşık",
+   "human_model": "maia2-maia2-0.11.0-rapid",
+   "stockfish": "nodes=100000",
+   "item_calibration": "none",
+   "loss_model": "lichess 2026-08 rapid backtest (eğitim %70)"
+  },
+  "torch": "2.15.0+cpu",
+  "maia2": "0.11.0",
+  "numpy": "2.5.4",
+  "chess": "1.11.2"
+ },
+ "items": [
+  {
+   "item_id": "demo:0025",
+   "transform": "both",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0104",
+   "transform": "identity",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0133",
+   "transform": "identity",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0031",
+   "transform": "identity",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0078",
+   "transform": "identity",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0097",
+   "transform": "color_swap",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0022",
+   "transform": "both",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0115",
+   "transform": "mirror",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0019",
+   "transform": "identity",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0081",
+   "transform": "identity",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0089",
+   "transform": "identity",
+   "score": 3
+  },
+  {
+   "item_id": "demo:0021",
+   "transform": "identity",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0129",
+   "transform": "mirror",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0026",
+   "transform": "mirror",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0099",
+   "transform": "identity",
+   "score": 3
+  },
+  {
+   "item_id": "demo:0060",
+   "transform": "identity",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0076",
+   "transform": "both",
+   "score": 2
+  },
+  {
+   "item_id": "demo:0116",
+   "transform": "mirror",
+   "score": 0
+  },
+  {
+   "item_id": "demo:0098",
+   "transform": "color_swap",
+   "score": 3
+  },
+  {
+   "item_id": "demo:0062",
+   "transform": "identity",
+   "score": 0
+  }
+ ],
+ "game": {
+  "user_color": "white",
+  "bot_level": 1640,
+  "moves": [
+   "g1f3",
+   "b8c6",
+   "f3g1",
+   "c6b8",
+   "g1f3",
+   "b8a6",
+   "f3g1",
+   "a6b8",
+   "g1f3",
+   "g8f6",
+   "f3g1",
+   "f6g8",
+   "g1f3",
+   "g7g6",
+   "f3g1",
+   "f8g7",
+   "g1f3",
+   "e7e6",
+   "f3g1",
+   "g8e7",
+   "g1f3",
+   "b8c6",
+   "f3g1",
+   "b7b6",
+   "g1f3",
+   "c8b7",
+   "f3g1",
+   "e8g8",
+   "g1f3",
+   "e7f5",
+   "f3g1",
+   "d8e7",
+   "g1f3",
+   "e7h4",
+   "f3h4",
+   "f5h4",
+   "h1g1",
+   "g7e5",
+   "g1h1",
+   "c6d4",
+   "h1g1",
+   "e5h2",
+   "g1h1",
+   "h4g2",
+   "f1g2",
+   "b7g2",
+   "h1h2",
+   "g2e4",
+   "d2d3",
+   "e4d3"
+  ]
+ },
+ "user_moves": [
+  {
+   "ply": 0,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 39,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.012842
+  },
+  {
+   "ply": 2,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 59,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.136195
+  },
+  {
+   "ply": 4,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 31,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.014701
+  },
+  {
+   "ply": 6,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 104,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.096422
+  },
+  {
+   "ply": 8,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 29,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.010106
+  },
+  {
+   "ply": 10,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 27,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.113187
+  },
+  {
+   "ply": 12,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 29,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.00551
+  },
+  {
+   "ply": 14,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": 47,
+   "engine_best": "e2e4",
+   "win_prob_loss": 0.101799
+  },
+  {
+   "ply": 16,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -56,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.005458
+  },
+  {
+   "ply": 18,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -16,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.084287
+  },
+  {
+   "ply": 20,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -95,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.0
+  },
+  {
+   "ply": 22,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -47,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.10254
+  },
+  {
+   "ply": 24,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -131,
+   "engine_best": "g1f3",
+   "win_prob_loss": 0.011231
+  },
+  {
+   "ply": 26,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -126,
+   "engine_best": "d2d4",
+   "win_prob_loss": 0.089816
+  },
+  {
+   "ply": 28,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -211,
+   "engine_best": "d2d3",
+   "win_prob_loss": 0.018749
+  },
+  {
+   "ply": 30,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -174,
+   "engine_best": "c2c3",
+   "win_prob_loss": 0.083623
+  },
+  {
+   "ply": 32,
+   "weight": 1.0,
+   "reason": null,
+   "eval_cp": -267,
+   "engine_best": "d2d3",
+   "win_prob_loss": 0.095609
+  },
+  {
+   "ply": 34,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 721,
+   "engine_best": "f3h4",
+   "win_prob_loss": 0.007863
+  },
+  {
+   "ply": 36,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 699,
+   "engine_best": "f2f3",
+   "win_prob_loss": 0.010329
+  },
+  {
+   "ply": 38,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 691,
+   "engine_best": "g2g3",
+   "win_prob_loss": 0.006196
+  },
+  {
+   "ply": 40,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 704,
+   "engine_best": "f2f3",
+   "win_prob_loss": 0.030933
+  },
+  {
+   "ply": 42,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 801,
+   "engine_best": "g1h1",
+   "win_prob_loss": 0.0
+  },
+  {
+   "ply": 44,
+   "weight": 0.0,
+   "reason": "forced",
+   "eval_cp": 891,
+   "engine_best": "f1g2",
+   "win_prob_loss": 0.004348
+  },
+  {
+   "ply": 46,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 835,
+   "engine_best": "h1h2",
+   "win_prob_loss": 0.0
+  },
+  {
+   "ply": 48,
+   "weight": 1.0,
+   "reason": "decided",
+   "eval_cp": 971,
+   "engine_best": "d2d3",
+   "win_prob_loss": 0.0
+  }
+ ],
+ "match_used": true,
+ "estimate": {
+  "median": 1654,
+  "lo90": 1533,
+  "hi90": 1784,
+  "sd": 75.8,
+  "n_items": 20,
+  "stage": "done"
+ },
+ "posterior_mean": 1655.8274,
+ "items_posterior_mean": 1643.5995
+}

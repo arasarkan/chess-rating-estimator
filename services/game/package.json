@@ -1,0 +1,26 @@
+{
+  "name": "@chessdex/game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Chessdex gerçek zamanlı oyun sunucusu (WebSocket, sunucu saati, chess.js)",
+  "scripts": {
+    "start": "node --import tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json",
+    "start:prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/ws": "^8.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.0"
+  }
+}

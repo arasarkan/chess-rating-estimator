@@ -1,0 +1,14 @@
+{
+ "input": "py/data/bank.jsonl (50.638)",
+ "kept": 50638,
+ "verdicts": {
+  "unchecked": 48104,
+  "ok": 2534
+ },
+ "requests": 5377,
+ "cache_entries": 5377,
+ "examples": {
+  "wrong": [],
+  "ambiguous": []
+ }
+}

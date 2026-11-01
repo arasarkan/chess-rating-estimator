@@ -1,0 +1,14 @@
+{
+ "version": "robust-positional-2026-10-29",
+ "created": 1793280000.0,
+ "model": "b'=alpha+beta*b, offsets'=beta*offsets, a'=gamma*a",
+ "per_kind": {
+  "positional": {"alpha": 0.0, "beta": 1.0, "gamma": 0.5}
+ },
+ "fit": {
+  "positional": {
+   "source": "pilot öncesi sağlamlık ayarı, docs/results/pos_freeplay.md",
+   "note": "Serbest oyun kararları pozisyonel ayırt ediciliğin bankadakinden düşük olabileceğini gösterdi; gamma=0.5 her iki varsayımda da kapsamayı korur/iyileştirir. Pilot kalibrasyonu (sim.pilot_calibrate) bu dosyanın yerine geçer."
+  }
+ }
+}
